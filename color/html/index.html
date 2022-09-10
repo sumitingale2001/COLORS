@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLORS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="nav__left navbar">
+            <h2>COLOR GRADIENTS</h2>
+        </div>
+        <div class="nav__right navbar">
+            <ul class="nav__list">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#signup">Signup</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="home" class="mid">
+        <div class="buttons">
+            <button class="move"><i class="fa-solid fa-angles-left" onclick="prev()"></i></button>
+            <button class="move"><i class="fa-solid fa-angles-right" onclick="next()"></i></button>
+        </div>
+        <div class="carousel">
+            <div class="slider one"></div>
+            <div class="first__slide slider">
+                <h2>CHOOSE YOUR</h2>
+                <h1> COLORS</h1><span>UNLIMITED POSSIBILITIES</span>
+            </div>
+            <div class="slider two"></div>
+            <div class="slider three"></div>
+            <div class="slider four"></div>
+            <div class="first__slide slider">
+                <h2>CHOOSE YOUR</h2>
+                <h1> COLORS</h1><span>UNLIMITED POSSIBILITIES</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="about__section">
+        <div class="about__right"><i class="fa-solid fa-layer-group icon"></i></div>
+        <div class="about__left">
+            <span class="text">What do we do?</span>
+            <span class="main">We help business scale</span>
+            <span class="text">Schedule a call to learn more about our services</span>
+        </div>
+    </div>
+    <div id="services" class="service__section">
+        <div class="service__header">OUR SERVICES</div>
+        <div class="service">
+            <div class="service__card colour__one">
+                <span>Custom Colorways</span>
+                <span>AI Powered technology</span>
+            </div>
+            <div class="service__card colour__two">
+                <span>Are You Ready?</span>
+                <span>Take the leap</span>
+            </div>
+            <div class="service__card colour__three">
+                <span>Full Gradients</span>
+                <span>100 Combinations</span>
+            </div>
+            <div class="service__card colour__four">
+                <span>Infinite choices</span>
+                <span>1000's of Colors</span>
+            </div>
+        </div>
+    </div>
+    <div id="signup" class="signup__section">
+        <div class="signup__left">
+            <span class="upper__text">JOIN OUR TEAM</span>
+            <span class="middle__text">Sign Up Today</span>
+            <span class="lower__text">See what makes up different.</span>
+            <button class="btn  signup">Signup</button>
+        </div>
+        <div class="signup__right"><i class="fa-solid fa-users"></i></div>
+    </div>
+    <div class="modal__container">
+        <div class="modal">
+            <div class="modal__header">
+                <div class="modal__head">SIGN UP</div>
+                <div class="modal__close">&times;</div>
+
+            </div>
+            <div class="modal__form">
+                <form action="" class="form">
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </form>
+            </div>
+            <div class="signup__btn"><button class="acc">CREATE ACCOUNT</button></div>
+        </div>
+    </div>
+    <div id="about" class="bottom__section">
+        <div class="bottom">
+            <span class="special">About Us</span>
+            <span class="normal">How it works</span>
+            <span class="normal">Testimonials</span>
+            <span class="normal">Career</span>
+            <span class="normal">Terms of Services</span>
+        </div>
+        <div class="bottom">
+            <span class="special">Contact Us</span>
+            <span class="normal">Contact</span>
+            <span class="normal">Support</span>
+            <span class="normal">Destination</span>
+        </div>
+        <div class="bottom">
+            <span class="special">Videos</span>
+            <span class="normal">Submit video</span>
+            <span class="normal">Ambassadors</span>
+            <span class="normal">Agency</span>
+        </div>
+        <div class="bottom">
+            <span class="special">Social media</span>
+            <span class="normal">Instagram</span>
+            <span class="normal">Facebook</span>
+            <span class="normal">Youtube</span>
+            <span class="normal">Twitter</span>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            COLOR
+        </div>
+        <div class="foot">
+            &copy;COLOR 2022. ALL RIGHTS RESERVED
+        </div>
+        <div class="foot">
+            <i class="fa-brands fa-facebook social"></i>
+            <i class="fa-brands fa-instagram social"></i>
+            <i class="fa-brands fa-youtube social"></i>
+            <i class="fa-brands fa-twitter social"></i>
+        </div>
+    </footer>
+    <script src="../javascript/app.js"></script>
+</body>
+
+</html>
